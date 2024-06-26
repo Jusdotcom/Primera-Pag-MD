@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway :ital,wght@0,100..900;1,100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway :ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background-image: url("../IMAGENES 1ER DISENO/headerfoto.jpg");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header nav ul li{
+    margin: 15px;
+}
+
+img{
+    width: 300px;
+
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.caja{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caja img{ 
+    border-radius: 10%;
+    border-style:groove;
+}
+.caja p{
+    font-size: larger;
+}
+
+h1{
+    font-size: 70px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    align-items:center;
+    
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+/* CARRUSEL */
+
+#carouselExampleCaptions .carousel-item img {
+    height: 700px; /* Altura deseada */
+    object-fit: cover;}
+    #carouselExampleCaptions .carousel-caption {
+        font-size: 2.2rem; /* Tamaño del texto */
+        color: white;
+    }
+/* TEXTO1 */
+.texto1{
+    margin: 20px;  /* Márgenes alrededor del párrafo */
+    padding: 15px; /* Espacio interno dentro del párrafo */
+    display: flex;
+    justify-content: center;
+}
+/* CONTENEDOR 2 */
+.contenedorDos{
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    margin: 30px;
+    justify-content: space-around;
+   background-color:wheat;
+}
+.contenedorDos p {
+    text-align: justify;
+    margin: 30 px;
+    padding: 20px 20px 20px 20px;
+}
+.contenedorDos h2 {
+    text-align: center;
+    margin: 0; /* Eliminar margen para centrarlo mejor con el texto */
+    padding: 0 20px;}
+.contenedorTres .contenedorCuatro {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    margin: 30px;
+    padding: 20px 20px 20px 20px;
+}
+.contenedorTres div ul {
+    list-style:circle;
+    text-align: start;
+    margin: 40px;
+    padding-top: 40px;
+
+}
+.contenedorTres div img {
+    width: 400px;
+    border-radius: 10%;
+}
+.contenedorCuatro {
+    background-color:rgb(159, 239, 213);
+   margin-top: 20px;
+    padding: 40px;
+}
+footer{
+    background-color: rgb(177, 158, 133);
+}
+
+.formContenedor h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #218838;
+}
